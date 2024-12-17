@@ -1,0 +1,85 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/biodata_button.xml" value="0.125" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/button_istirahat.xml" value="0.1135" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/callplan.xml" value="0.1495" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/editbox.xml" value="0.125" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1495" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/ic_pembayaran.xml" value="0.145" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/log_out.xml" value="0.145" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/navigation_up.xml" value="0.1495" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/outline_blue.xml" value="0.1495" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/outline_button.xml" value="0.1495" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/outline_shape_blue.xml" value="0.145" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/outline_shape_green.xml" value="0.1455" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/outline_shape_red.xml" value="0.145" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/drawable/search.xml" value="0.172" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_akhirikegiatan.xml" value="0.18" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_alasan_gagal_checkin.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_another.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_callplan.xml" value="0.2" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_detail_summary_transaksi_lhp_new.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_diskon.xml" value="0.18" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_map_kunjungan.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mcanvaser_detail_terima_produk.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mcanvaser_diskon.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mcanvaser_history_detail.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mcanvaser_menu_pelanggan.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mcanvaser_terima_produk.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_menu_pelanggan.xml" value="0.33" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_menu_selesai.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_mulai_perjalanan.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_persiapan.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_rekapan_produk_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_scangagal_dalamrute.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_scangagal_luarrute.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_scangagal_nonrute.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_setting.xml" value="0.1105072463768116" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_summary_order.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_summary_penjualan.xml" value="0.1" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_summary_transaksi_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/activity_tentang_perangkat.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/dialog_edit_qty_produk.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/dialog_submit_akhir_kegiatan.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/dialog_submit_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/dialog_submit_terima_produk.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/gagal_checkin.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/isi_product.xml" value="0.2" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/layout_bottom_sheet_setor_sekarang.xml" value="0.16" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/layout_detail_lhp.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/layout_rekap_produk_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/layout_ritase_lhp.xml" value="0.33" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_akhiri_kegiatan.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_daftarbelumselesai.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_detail_do_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_docdoitem.xml" value="0.2" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_product.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_rute.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_surat_tugas_daftar_kunjungan.xml" value="0.25" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_terima_produk.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/list_total_pembayaran_lhp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/pilih_do.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/pilih_metode.xml" value="0.11322463768115942" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/pilih_ritase.xml" value="0.22" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/pilih_rute.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/popup_list_product.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/popup_selesai_istirahat.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/ritase.xml" value="0.2" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/sisa_stock_penjualan.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/topup_km.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/ICT-PROGRAMER/AndroidStudioProjects/SFA_Canvasser/app/src/main/res/layout/topup_kmends.xml" value="0.14945652173913043" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

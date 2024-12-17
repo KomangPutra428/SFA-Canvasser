@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.joanfuentes:HintCase:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ea02006a68b104a71a1fb063172489/jetified-HintCase-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ea02006a68b104a71a1fb063172489/jetified-HintCase-1.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ea02006a68b104a71a1fb063172489/jetified-HintCase-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanfuentes/HintCase/1.0.4/7cd2fcd19c01b6df49663e2bba3a1f92b9adbbd3/HintCase-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanfuentes/HintCase/1.0.4/3754c3af8b7ed7fe3bebe512ca2a8ff108b3a503/HintCase-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

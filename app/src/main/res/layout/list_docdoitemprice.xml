@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/realization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihstatus"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="8dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge"
+        app:cardCornerRadius="4dp">
+
+        <!-- DOCDOITEMPRICE -->
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_szDocId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_intItemNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_intItemDetailNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_szPriceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_bTaxable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decDpp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_szTaxId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decTaxRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decDiscPrinciple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decDiscDistributor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:id="@+id/tv_decDiscInternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@id/button_expand_listview"
+                android:gravity="end"
+                android:text="total_harga"/>
+
+        </LinearLayout>
+        <!-- ++++++++++++ -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/galon" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/namaproduk"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="Realization"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order :"
+                        android:textColor="#0F4C81"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/qty_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="qty_order">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal">
+
+                    visi
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/tv_total_harga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="8dp"
+                        android:layout_toLeftOf="@id/button_expand_listview"
+                        android:gravity="end"
+                        android:text="total_harga">
+
+                    </TextView>
+
+                    <RelativeLayout
+                        android:id="@+id/button_expand_listview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/circle_corner">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_arrow_down">
+                        </ImageView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_detail_terima_produk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#EFEFEF">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Harga" />
+
+                    <TextView
+                        android:id="@+id/tv_list_terima_produk_harga_satuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="harga_satuan" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diskon TIV" />
+
+                    <TextView
+                        android:id="@+id/tv_list_terima_produk_diskon_tiv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="diskon_tiv" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diskon Distributor" />
+
+                    <TextView
+                        android:id="@+id/tv_list_terima_produk_diskon_distributor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="diskon_distributor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diskon Internal" />
+
+                    <TextView
+                        android:id="@+id/tv_list_terima_produk_diskon_internal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="diskon_distributor" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_mulai_perjalanan.mPenjualan_Tes_Kamera">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_delivery_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="no_delivery_order"
+            android:textIsSelectable="true">
+        </TextView>
+
+        <ListView
+            android:id="@+id/listproductpenjualan"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:divider="@null"
+            android:nestedScrollingEnabled="true"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/linear_upload_gambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginBottom="16dp"
+                android:background="#959595">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Foto"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/foto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_atau"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="6dp"
+                        android:padding="10dp"
+                        android:text="Ambil Foto"
+                        android:textAllCaps="false"
+                        android:textColor="#0f4c81"
+                        android:textSize="10sp"
+                        app:backgroundTint="@null" />
+
+                    <TextView
+                        android:id="@+id/text_atau"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="atau"></TextView>
+
+                    <Button
+                        android:id="@+id/browse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_atau"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="6dp"
+                        android:padding="10dp"
+                        android:text="Pilih Gambar"
+                        android:textAllCaps="false"
+                        android:textColor="#0f4c81"
+                        android:textSize="10sp"
+                        app:backgroundTint="@null" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:adjustViewBounds="true">
+                </ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/editbox"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageButton
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:padding="15dp"
+                android:src="@drawable/refresh" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

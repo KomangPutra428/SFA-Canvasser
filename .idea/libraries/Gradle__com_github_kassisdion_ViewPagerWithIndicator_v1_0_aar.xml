@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kassisdion:ViewPagerWithIndicator:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec41521f7086b8983432a767a49e7b00/jetified-ViewPagerWithIndicator-v1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec41521f7086b8983432a767a49e7b00/jetified-ViewPagerWithIndicator-v1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec41521f7086b8983432a767a49e7b00/jetified-ViewPagerWithIndicator-v1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kassisdion/ViewPagerWithIndicator/v1.0/125a4f1c0a88fc514439dae34144998e7bb7172c/ViewPagerWithIndicator-v1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kassisdion/ViewPagerWithIndicator/v1.0/8225a2b0e0e8388b1d5b90f9bd45c45b6390ff3d/ViewPagerWithIndicator-v1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

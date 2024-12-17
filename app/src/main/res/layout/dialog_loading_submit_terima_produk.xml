@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_1"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_2"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_3"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_4"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_5"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_6"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_7"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_8"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_9"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+            <ImageView
+                android:layout_marginRight="8dp"
+                android:id="@+id/img_10"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="#F0AEAEAE">
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_submit_loading"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Loading..."
+            android:textColor="#505050"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/bt_submit_berhasil"
+            android:visibility="gone"
+            android:textColor="#FFFFFF"
+            android:background="#0F4C81"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:text="OK"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

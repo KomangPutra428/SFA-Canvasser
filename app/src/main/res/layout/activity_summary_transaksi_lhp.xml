@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".menu_selesai_perjalanan.Summary_Transaksi_Lhp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/persiapanbar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            app:title="Transaksi Summary LHP"
+            app:titleTextColor="#ffff" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/list_akhiri_kegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/relative_info_std_tidak_ditemukan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_std_not_found"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ops"
+            android:foregroundGravity="center"
+            android:visibility="visible">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_std_not_found"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_std_not_found"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Nomor surat tugas tidak tersedia"
+            android:textStyle="bold"
+            android:visibility="visible">
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

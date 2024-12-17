@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883934726239",
+    "project_id": "sfa-canvasser",
+    "storage_bucket": "sfa-canvasser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883934726239:android:206cfd32a63e267ddab3ea",
+        "android_client_info": {
+          "package_name": "com.tvip.driver_canvaser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbTXx8vYHDAnmV__aoBUmEPhPjmSZpodk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

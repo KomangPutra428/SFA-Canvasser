@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/outline_button"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bt_remove_list"
+        android:layout_margin="16dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/delete_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_nama_produk_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama_produk">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_id_produk_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id_produk">
+            </TextView>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:id="@+id/qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:text="Isi Stok Canvas"
+                        android:textStyle="bold"></TextView>
+
+                    <EditText
+                        android:id="@+id/edt_listview_isi_qty_canvas"
+                        android:textColor="@color/color_text_blue"
+                        android:hint="000"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:text="0">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/tv_qty_produk_listview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/qty"
+                        android:gravity="end"
+                        android:text="qty_produk"
+                        android:textColor="@color/color_text_blue"
+                        android:textStyle="bold"
+                        android:visibility="gone"></TextView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
